@@ -27,23 +27,6 @@ Built from the National Vulnerability Database (NVD) and ExploitDB.
   * [ExploitDB](https://www.exploit-db.com/)
 
 ---
-
-## Folder Layout
-
-```
-federated-nvd-vulnerability-model/
-├── data/
-│   ├── raw/             # Raw CVEs + exploit lists
-│   ├── processed/       # Final labeled dataset
-│   └── scripts/         # Scripts for fetching, filtering, labeling
-├── notebooks/           # Centralized and federated training
-├── src/                 # Model and preprocessing code
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## Generate Dataset
 
 Run scripts in this order:
