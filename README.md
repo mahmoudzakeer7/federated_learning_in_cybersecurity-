@@ -47,6 +47,9 @@ Most discovered vulnerabilities are never actually exploited. Security teams oft
 2. **Install Requirements**  
    ```bash
    pip install tensorflow==2.18.1 numpy==1.26.4 flwr scikit-learn gensim nltk
-
+# my future work
+- making a model that can analyis cybersecurity reports and make it readable instead of using LLM model make this function
+- make pipline with two model
+- improve evalution our model
 # 🔐 Federated Learning in Cybersecurity
 This project demonstrates how federated learning can be used to improve security analytics while preserving data privacy. It is ideal for scenarios where raw vulnerability data is distributed across multiple organizations and cannot be centrally shared.   
